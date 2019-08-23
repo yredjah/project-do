@@ -1,0 +1,47 @@
+#footer {
+  background-image: url('/assets/img/if.jpg');
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+
+  
+
+  .link{
+    width: 50%;
+    a{
+      color: navy;
+
+      &:hover{
+        color: grey;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      a{
+        width: 100%;
+        padding: 0.2em;
+      }
+    }
+    @media screen and (max-width: 1000px){
+      width: 100%;
+      font-size: 70%;
+      a{
+        width: 100%;
+        padding: 0.2em;
+      }
+    }
+  }
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.foot-link {
+  margin: 5%;
+}
