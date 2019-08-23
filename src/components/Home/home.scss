@@ -1,4 +1,5 @@
 .home {
+  font-family: 'Cinzel', serif;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -33,8 +34,14 @@
 }
 
 .home-title {
-  font-family: 'Tangerine', cursive;
   font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 1%;
+
+}
+
+.home-title-two {
+  font-size: 42px;
   font-weight: bold;
   margin-bottom: 1%;
 
@@ -63,6 +70,7 @@
 }
 
 .homePage-text {
+  font-size: 28px;
   @media screen and (max-width: 1000px) {
     display: flex;
     flex-direction: column;
