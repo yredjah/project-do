@@ -42,6 +42,7 @@
     "test": "mocha --require tests/.setup.js tests/**/*.test.js",
     "test:watch": "mocha --watch --require tests/.setup.js tests/**/*.test.js",
     "start": "webpack-dev-server",
+    "start:server": "node ./server/index.js",
     "clean": "rm -rf dist",
     "clean:all": "rm -rf dist node_modules",
     "build:dev": "NODE_ENV=development webpack",
@@ -53,6 +54,8 @@
   "dependencies": {
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

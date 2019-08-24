@@ -1,0 +1,52 @@
+#recruitement {
+  font-family: 'Cinzel', serif;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 1em;
+  width: 50%;
+  color: #000080;
+  border: 2px solid lightblue;
+  background-image: url('/assets/img/ice.jpg');
+  background-size: cover;
+  box-shadow: 15px 8px 10px lightblue;
+
+  @media screen and (max-width: 1000px) {
+    width: 85%;
+ 
+  }
+}
+
+.contactForm {
+  border-color: black !important;
+  margin-bottom: 20px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+}
+
+.contactName {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+}
+
+label {
+  text-align: left !important;
+}
+
+#form-subcomponent-shorthand-input-name, #form-subcomponent-shorthand-input-discord, #form-subcomponent-shorthand-input-battletag, #form-subcomponent-shorthand-input-character, #form-subcomponent-shorthand-input-availability, #form-subcomponent-shorthand-input-formXpWow, #form-subcomponent-shorthand-input-formXpMmo, #form-subcomponent-shorthand-input-formWhy, #form-subcomponent-shorthand-input-formYou {
+  border-color: black !important;
+}
+
+.recruitement-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 1%;
+  margin-bottom: 2%;
+}
+
+.form-title {
+  display: flex;
+  font-weight: bold;
+}

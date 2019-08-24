@@ -7,9 +7,9 @@ export default [
   },
   {
     id: '2',
-    name: 'button1',
-    title: 'Button1',
-    route: '/',
+    name: 'recruitement',
+    title: 'Recruitement',
+    route: '/recruitement',
   },
   {
     id: '3',
